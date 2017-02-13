@@ -1,0 +1,48 @@
+[
+  {"roomId" : 1,
+   "ownerName" : "Dheeraj",
+   "roomName" : "Exceptional Property private terrace",
+   "roomType" : "Entire home/apt",
+   "maxGuests" : 6,
+   "noOfBedrooms" : 3,
+   "noOfBeds" : 5,
+   "address" : "Jayanagar, Bangalore",
+   "description" : "The house is located in a beautiful natural park, fully enclosed, supervised by a couple of caseiros (caretaker and gardener)
+** House for a minimum of 6 adults from 01/12 to 30/02
+Children under 5 do not pay their stay. From five years old price is similar as adult price.
+NB: the price of 79US$ is per person and per night
+NB : sorry, dogs or animals are not admitted",
+   "homeImage" : "content/img/home1.jpg"
+  },
+  {"roomId" : 2,
+   "ownerName" : "Satan ",
+   "roomName" : "Exceptional Property",
+   "roomType" : "Private room",
+   "maxGuests" : 2,
+   "noOfBedrooms" : 1,
+   "noOfBeds" : 2,
+   "address" : "Hell, Hell",
+   "description" : "The house is located in a beautiful natural park, fully enclosed, supervised by a couple of caseiros (caretaker and gardener)
+** House for a minimum of 6 adults from 01/12 to 30/02
+Children under 5 do not pay their stay. From five years old price is similar as adult price.
+NB: the price of 79US$ is per person and per night
+NB : sorry, dogs or animals are not admitted",
+   "homeImage" : "content/img/home2.jpg"
+  },
+  {"roomId" : 3,
+   "ownerName" : "Ayush",
+   "roomName" : "Secure Private house",
+   "roomType" : "Entire house/apt",
+   "maxGuests" : 4,
+   "noOfBedrooms" : 2,
+   "noOfBeds" : 4,
+   "address" : "Jp Nagar, Bangalore",
+   "description" : "The house is located in a beautiful natural park, fully enclosed, supervised by a couple of caseiros (caretaker and gardener)
+** House for a minimum of 6 adults from 01/12 to 30/02
+Children under 5 do not pay their stay. From five years old price is similar as adult price.
+NB: the price of 79US$ is per person and per night
+NB : sorry, dogs or animals are not admitted",
+   "homeImage" : "content/img/home3.jpg"
+  }
+
+]

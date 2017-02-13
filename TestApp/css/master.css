@@ -1,0 +1,32 @@
+body{
+  background-color:lightgrey;
+}
+
+
+.hamburger{
+  background:none; border:0;
+  padding: 0;
+  color:white;
+  font-size:25;
+  margin:1% 20px;
+}
+
+.navbar-header{
+  width:100%;
+}
+
+.navbar-brand{
+  margin: 8px;
+  box-sizing: border-box;
+  padding: 0;
+}
+.logo{
+  padding: 0;
+  box-sizing: border-box;
+  height: 90%;
+}
+
+.sideBar{
+  height:100%;
+  padding: 0;
+}

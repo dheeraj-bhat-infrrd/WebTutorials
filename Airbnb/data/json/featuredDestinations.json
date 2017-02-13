@@ -1,0 +1,18 @@
+[
+  {
+    "destination" : "Tokyo",
+    "destImage" : "content/img/destination1.jpg"
+  },
+  {
+    "destination" : "Bangalore",
+    "destImage" : "content/img/destination2.jpg"
+  },
+  {
+    "destination" : "Bangalore",
+    "destImage" : "content/img/destination3.jpg"
+  },
+  {
+    "destination" : "Bangalore",
+    "destImage" : "content/img/destination4.jpg"
+  },
+]

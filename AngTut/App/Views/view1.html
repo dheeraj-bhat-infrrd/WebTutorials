@@ -1,0 +1,32 @@
+<div class="container" ui-view>
+  <h2>View 1</h2>
+  Name:
+  <br/>
+  <input type="text" ng-model="name"/>
+  <br/>
+  <input type="text" ng-model="name"/>
+  <br/>
+  <input type="text" ng-model="name"/> {{ name }} <!--ng-model used to for binding the data simultaneously-->
+  <br/>
+
+  <ul>
+    <li ng-repeat="customer in customers | filter:name | orderBy: '-city'">{{ customer.name | uppercase}} - {{ customer.city }}</li> <!--ng-repeat used to iterate-->
+                  <!-- the about data can also be written as {{ customer.name + ' - ' + customer.city }} -->
+                  <!-- | is used for filtering the data. In the above statement filter:name filters the names in the list according to whatever we type in the text box. Eg: if we type v then varad and veeku would show. if we type va only varad would be shown. it works for any letter combinations Eg: if i type raj then dheeraj would be shown-->
+                  <!--in the above statement orderBy orders the filtered data according to the cities -->
+                  <!-- The data can be ordered in desceding order by using orderBy= '-...' instead of orderBy= "..."  that is using the minus symbol-->
+                  <!-- check testJson app for ordering using a particular column of the table-->
+  </ul>
+
+  <br/>
+
+  Customer Name:<br/>
+  <input type="text" ng-model="cust.name"/>
+  Customer city:<br/>
+  <input type="text" ng-model="cust.city"/>
+  <br/>
+  <button ng-click="addCustomer()">Add Customer</button>
+  <br/>
+  <a ui-sref="view2">View 2</a> <!-- used to go to the view 2-->
+
+</div>
